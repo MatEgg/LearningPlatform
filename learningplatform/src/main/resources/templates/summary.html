@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Handling Form Submission</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/flatly/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	
+</script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	
+</script>
+<link rel="stylesheet" 
+	href="../../css/main.css" />
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Spring Boot</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="inactive"><a href="#">SumTask</a></li>
+					<li><a href="/sum">Sum Task</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<div class="starter-template">
+			<h1>Enter Title of Wikipedia-Article you like to be summarized</h1>
+			<form action="#" th:action="@{/summary}" th:object="${summary}"
+				method="post">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Summarize Text</label>
+					<p>
+						<input class="form-control"			placeholder="Enter Title of the Wikipedia article to summarize"
+							th:field="*{articleTitle}"> </input>
+					</p>
+					<p>
+						<input type="submit" class="btn btn-default" value="Submit" /> <input
+							type="reset" class="btn btn-default" value="Reset" /> <a
+							href="/" class="btn btn-default">Home</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

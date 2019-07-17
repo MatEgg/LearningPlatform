@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Welcome Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/flatly/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	
+</script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	
+</script>
+<link rel="stylesheet" href="../../css/main.css" />
+
+</head>
+<body>
+
+	<nav
+		class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
+
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#">Frontpage</a></li>
+			<li class="nav-item"><a class="nav-link" href="/sum">Summation</a></li>
+			<li class="nav-item"><a class="nav-link" href="/wordproblem">WordProblem</a></li>
+			<li class="nav-item"><a class="nav-link"
+				href="/wordproblemdebug">WordProblem Debug</a></li>
+		</ul>
+
+	</nav>
+
+	<div class="container" ng-app="myApp"
+		ng-controller="wordProblemController">
+
+		<h3>Solve the following task:</h3>
+		<br>
+		<h5 ng-repeat="template in templates"> {{ template.questionText }} </h5>
+			
+
+
+			<div class="container2">
+				<h4>Questions:</h4>
+				<table>
+					<tr ng-repeat="question in questions">
+						<td>{{question.question}}</td>
+
+					</tr>
+				</table>
+
+			</div>
+			<br>
+			<button ng-click="generateTask()">Generate new task!</button>
+	</div>
+
+
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+	<script>
+		var app = angular.module('myApp', []);
+		app.controller('wordProblemController', function($scope, $http) {
+			$http.get("/wordProblemGet").then(function(response) {
+				$scope.templates = response.data.templateList;
+				$scope.questions = response.data.questionList;
+			});
+
+			$scope.generateTask = function() {
+				$http.get("/wordProblemGet").then(function(response) {
+					$scope.templates = response.data.templateList;
+					$scope.questions = response.data.questionList;
+				});
+			};
+		});
+	</script>
+
+
+
+
+
+
+</body>
+</html>

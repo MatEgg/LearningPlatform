@@ -1,0 +1,53 @@
+-- MySQL dump 10.13  Distrib 8.0.13, for Win64 (x86_64)
+--
+-- Host: localhost    Database: masterthesis
+-- ------------------------------------------------------
+-- Server version	8.0.13
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+ SET NAMES utf8 ;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `numerical_skill_types_difficulty`
+--
+
+DROP TABLE IF EXISTS `numerical_skill_types_difficulty`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `numerical_skill_types_difficulty` (
+  `id_numerical_skill_types_difficulty` int(11) NOT NULL,
+  `decimal_difficulty` int(11) DEFAULT NULL,
+  `magnitude_difficulty` int(11) DEFAULT NULL,
+  `numerical_difficulty` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id_numerical_skill_types_difficulty`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `numerical_skill_types_difficulty`
+--
+
+LOCK TABLES `numerical_skill_types_difficulty` WRITE;
+/*!40000 ALTER TABLE `numerical_skill_types_difficulty` DISABLE KEYS */;
+INSERT INTO `numerical_skill_types_difficulty` VALUES (1,50,48,37),(2,66,52,32),(3,25,15,90),(4,56,84,64),(599,50,50,50),(624,50,50,50),(625,50,50,50),(626,50,50,50),(627,50,50,50),(653,50,50,50),(654,50,50,50),(655,50,50,50),(656,50,50,50),(681,50,50,50),(682,50,50,50),(683,50,50,50),(684,50,50,50),(694,50,50,50),(695,50,50,50),(696,50,50,50),(697,50,50,50),(707,50,50,50),(708,50,50,50),(709,50,50,50),(710,50,50,50),(720,50,50,50),(721,50,50,50),(722,50,50,50),(723,50,50,50),(733,50,50,50),(734,50,50,50),(735,50,50,50),(736,50,50,50),(746,50,50,50),(747,50,50,50),(748,50,50,50),(749,50,50,50),(774,50,50,50),(775,50,50,50),(776,50,50,50),(777,50,50,50),(787,50,50,50),(788,50,50,50),(789,50,50,50),(790,50,50,50),(817,50,50,50),(818,50,50,50),(819,50,50,50),(820,50,50,50),(846,2,2,2),(847,2,2,2),(848,2,2,2),(849,2,2,2),(875,40,20,30),(876,30,40,30),(877,30,40,30),(878,40,50,20),(904,20,60,50),(905,10,50,50),(906,40,30,50),(907,20,50,50),(933,50,50,50),(934,50,50,50),(935,50,50,50),(936,50,50,50),(962,50,50,50),(963,50,50,50),(964,50,50,50),(965,50,50,50),(991,50,50,50),(992,50,50,50),(993,50,50,50),(994,50,50,50),(1020,50,50,50),(1021,50,50,50),(1022,50,50,50),(1023,50,50,50),(1049,50,50,50),(1050,50,50,50),(1051,50,50,50),(1052,50,50,50),(1078,1,1,1),(1079,1,1,1),(1080,1,1,1),(1081,1,1,1),(1107,0,40,20),(1108,0,30,20),(1109,0,30,10),(1110,0,30,10),(1136,20,50,30),(1137,20,20,40),(1138,0,40,30),(1139,40,50,20),(1165,30,50,40),(1166,40,40,40),(1167,0,30,20),(1168,40,100,40),(1194,40,100,40),(1195,40,100,40),(1196,40,100,40),(1197,40,100,40),(1223,10,30,20),(1224,20,20,10),(1225,20,20,10),(1226,10,30,20),(1252,50,50,50),(1253,50,50,50),(1254,50,50,50),(1255,50,50,50);
+/*!40000 ALTER TABLE `numerical_skill_types_difficulty` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-05-13  4:31:50
