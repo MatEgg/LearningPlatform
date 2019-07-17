@@ -17,3 +17,10 @@ I implemented a WebService of a learning platform that generates mathematical wo
 
 
 # Demo
+
+## Overview of the system
+![](overview.png)
+
+## Difficulty settings
+
+![](difficultysettingsoverall.png)
