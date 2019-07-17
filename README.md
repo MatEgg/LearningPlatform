@@ -23,7 +23,7 @@ For more information read the masterthesis that is included in this repository.
 * Sonarcube
 
 
-# Demo
+# Screenshots
 
 ## Overview of the system
 ![](overview.png)
