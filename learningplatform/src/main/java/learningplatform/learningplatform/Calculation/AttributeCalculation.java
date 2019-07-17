@@ -1,4 +1,4 @@
-package learningplatform.learningplatform.Calculation;
+package learningplatform.learningplatform.calculation;
 
 import java.util.Iterator;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.learningplatform.learningplatform.bkt;
 
-import learningplatform.learningplatform.Calculation.MostDifficultyCalculation;
+import learningplatform.learningplatform.calculation.MostDifficultyCalculation;
 
 public class BktHandlerUtils {
 

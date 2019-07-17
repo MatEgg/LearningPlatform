@@ -8,7 +8,7 @@ import com.learningplatform.learningplatform.attributes.CustomerSpending;
 import com.learningplatform.learningplatform.question.QuestionAttribute;
 import com.learningplatform.learningplatform.templates.Template;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
 
 public class CustomerElement extends NumericalElement {
 

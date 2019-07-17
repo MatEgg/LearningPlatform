@@ -15,7 +15,7 @@ import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 import com.learningplatform.learningplatform.types.TargetAttribute;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
 
 /**
  * Handles issues belonging to the treatment of attributes.

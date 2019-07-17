@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.List;
+import java.util.Random;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +22,9 @@ import com.learningplatform.learningplatform.models.Store;
 import com.learningplatform.learningplatform.templates.Elements.Element;
 import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
+import mockit.Mock;
+import mockit.MockUp;
 
 public class DifficultyAdjustmentAttributeUtilsTest {
 
@@ -77,10 +80,17 @@ public class DifficultyAdjustmentAttributeUtilsTest {
 
 	@Test
 	public void chooseAttributeByDifficultyHighSkillTest() {
+		
+		new MockUp<Random>() {
+			@Mock
+			private float nextFloat() {
+				return 0.24f;
+			}
+		};
+	
 		difficultyCalculated.getComputationalRulesDifficulty().setDifficulty(100);
 		Attribute chosenAttr = DifficultyAdjustmentAttributeUtils.chooseAttributeByDifficulty(possibleAttributes,
 				difficultyCalculated);
-
 		assertTrue(chosenAttr.getAttributeType() != AttributeType.LENGTH
 				&& chosenAttr.getAttributeType() != AttributeType.WIDTH);
 	}

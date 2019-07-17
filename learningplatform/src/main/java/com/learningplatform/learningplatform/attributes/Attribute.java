@@ -4,12 +4,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.learningplatform.learningplatform.attributes.AttributeHandler.AttributeType;
 import com.learningplatform.learningplatform.templates.Elements.Element;
 
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
 
 /**
  * Represents Attributes that are present in Elements like Length, Width, Area

@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.learningplatform.learningplatform.types.CalculationStep;
 
-import learningplatform.learningplatform.Calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
 
 public class AnswerHandlerUtils {
 	/**

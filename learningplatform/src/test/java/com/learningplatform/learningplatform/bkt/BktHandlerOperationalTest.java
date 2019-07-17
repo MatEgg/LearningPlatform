@@ -17,7 +17,7 @@ import com.learningplatform.learningplatform.controllers.DaoFactory;
 import com.learningplatform.learningplatform.models.User;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.MostDifficultyCalculation;
+import learningplatform.learningplatform.calculation.MostDifficultyCalculation;
 
 @Transactional
 @SpringBootTest

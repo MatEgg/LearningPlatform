@@ -7,8 +7,8 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.learningplatform.learningplatform.question.AttributeAnswerCheck;
 
-import learningplatform.learningplatform.Calculation.SingleCalculation;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class AttributeCalculationType {
 

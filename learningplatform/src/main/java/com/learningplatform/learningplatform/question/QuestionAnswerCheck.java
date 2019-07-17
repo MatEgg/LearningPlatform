@@ -2,7 +2,7 @@ package com.learningplatform.learningplatform.question;
 
 import com.learningplatform.learningplatform.types.UserResult;
 
-import learningplatform.learningplatform.Calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.OptimalSolution;
 
 public class QuestionAnswerCheck {
 

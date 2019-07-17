@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import com.learningplatform.learningplatform.bkt.BktSingleCalculation;
 
-import learningplatform.learningplatform.Calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
 
 public class BktSingleCalculationTest {
 

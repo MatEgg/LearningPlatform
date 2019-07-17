@@ -21,10 +21,11 @@ import com.learningplatform.learningplatform.templates.Elements.FieldElement;
 import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.types.QuestionText.PositionType;
-import com.learningplatform.learningplatform.types.QuestionText;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
+
+import com.learningplatform.learningplatform.types.QuestionText;
 
 public class ReplaceValueByOther extends SupportTemplate {
 	Attribute attribute;

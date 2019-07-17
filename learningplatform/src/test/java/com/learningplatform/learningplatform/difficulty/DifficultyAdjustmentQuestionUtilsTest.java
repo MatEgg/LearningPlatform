@@ -10,8 +10,8 @@ import org.junit.Test;
 
 import com.learningplatform.learningplatform.types.Question;
 
-import learningplatform.learningplatform.Calculation.CalculationStats;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.CalculationStats;
+import learningplatform.learningplatform.calculation.OptimalSolution;
 
 public class DifficultyAdjustmentQuestionUtilsTest {
 

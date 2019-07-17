@@ -25,9 +25,9 @@ import com.learningplatform.learningplatform.types.TargetAttribute;
 import com.learningplatform.learningplatform.types.UserResult;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.SingleCalculation;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class AnswerHandlerTest {
 

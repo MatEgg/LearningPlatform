@@ -25,8 +25,8 @@ import com.learningplatform.learningplatform.types.QuestionText;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.utilities.QuestionTextHelper;
 
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class IncomeThroughVisitors extends PercentConnectedTemplate {
 

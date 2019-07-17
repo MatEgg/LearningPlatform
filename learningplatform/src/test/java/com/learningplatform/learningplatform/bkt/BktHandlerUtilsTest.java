@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.learningplatform.learningplatform.models.User;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.MostDifficultyCalculation;
+import learningplatform.learningplatform.calculation.MostDifficultyCalculation;
 
 public class BktHandlerUtilsTest {
 

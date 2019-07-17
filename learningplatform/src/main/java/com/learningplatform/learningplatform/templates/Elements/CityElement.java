@@ -12,7 +12,7 @@ import com.learningplatform.learningplatform.question.QuestionAttribute;
 import com.learningplatform.learningplatform.tasks.WordProblem;
 import com.learningplatform.learningplatform.templates.Template;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
 
 public class CityElement extends NumericalElement {
 	CityService cityService;

@@ -28,9 +28,9 @@ import com.learningplatform.learningplatform.types.UserResult;
 import com.learningplatform.learningplatform.utilities.AttributeUtils;
 import com.learningplatform.learningplatform.utilities.QuestionTextHelper;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class QuestionHandler {
 

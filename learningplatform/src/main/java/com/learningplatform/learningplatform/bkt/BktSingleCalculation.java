@@ -2,7 +2,7 @@ package com.learningplatform.learningplatform.bkt;
 
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
 
 
 /**

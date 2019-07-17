@@ -23,7 +23,7 @@ import com.learningplatform.learningplatform.templates.Template;
 import com.learningplatform.learningplatform.types.Construction;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
 
 public class StoreElement extends NumericalElement {
 

@@ -17,7 +17,7 @@ import com.learningplatform.learningplatform.tasks.WordProblem;
 import com.learningplatform.learningplatform.types.AttributeCalculationType;
 import com.learningplatform.learningplatform.types.QuestionCalculation;
 
-import learningplatform.learningplatform.Calculation.CompletionInformation;
+import learningplatform.learningplatform.calculation.CompletionInformation;
 
 /**
  * Controller for everything regarding the wordproblem page.

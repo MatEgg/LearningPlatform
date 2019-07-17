@@ -1,4 +1,4 @@
-package learningplatform.learningplatform.Calculation;
+package learningplatform.learningplatform.calculation;
 
 import org.hibernate.cfg.beanvalidation.GroupsPerOperation.Operation;
 

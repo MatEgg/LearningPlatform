@@ -23,8 +23,8 @@ import com.learningplatform.learningplatform.types.QuestionText;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.types.QuestionText.PositionType;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
 
 public class ProductTimeUntilDepletion extends ComputationalConnectedTemplate {
 

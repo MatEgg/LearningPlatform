@@ -44,6 +44,10 @@ import com.learningplatform.learningplatform.utilities.AttributeUtils;
 import com.learningplatform.learningplatform.utilities.QuestionTextHelper;
 import com.learningplatform.learningplatform.utilities.UtilitiesHelper;
 
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
+
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.HashMap;
@@ -54,10 +58,6 @@ import java.util.Random;
 import java.util.Set;
 
 import org.springframework.core.env.MissingRequiredPropertiesException;
-
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
 
 public class WordProblem implements TaskInterface {
 

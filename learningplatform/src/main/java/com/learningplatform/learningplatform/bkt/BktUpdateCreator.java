@@ -15,15 +15,15 @@ import com.learningplatform.learningplatform.types.AttributeCalculationType;
 import com.learningplatform.learningplatform.types.Question;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
+import learningplatform.learningplatform.calculation.CalculationInformation;
+import learningplatform.learningplatform.calculation.CompletionInformation;
+import learningplatform.learningplatform.calculation.MostDifficultyCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import learningplatform.learningplatform.Calculation.CalculationInformation;
-import learningplatform.learningplatform.Calculation.CompletionInformation;
-import learningplatform.learningplatform.Calculation.MostDifficultyCalculation;
-import learningplatform.learningplatform.Calculation.SingleCalculation;
 
 /**
  * Handles the creation of update packets.

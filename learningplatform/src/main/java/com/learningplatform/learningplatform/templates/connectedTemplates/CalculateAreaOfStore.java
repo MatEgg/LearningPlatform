@@ -30,8 +30,8 @@ import com.learningplatform.learningplatform.utilities.AttributeUtils;
 import com.learningplatform.learningplatform.utilities.QuestionTextHelper;
 import com.learningplatform.learningplatform.utilities.UtilitiesHelper;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class CalculateAreaOfStore extends GeometryConnectedTemplate {
 

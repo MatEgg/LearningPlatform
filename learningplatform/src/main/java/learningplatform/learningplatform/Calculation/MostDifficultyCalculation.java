@@ -1,4 +1,4 @@
-package learningplatform.learningplatform.Calculation;
+package learningplatform.learningplatform.calculation;
 
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 

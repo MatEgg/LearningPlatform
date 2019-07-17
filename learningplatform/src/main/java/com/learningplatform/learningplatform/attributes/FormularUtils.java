@@ -5,12 +5,12 @@ import com.learningplatform.learningplatform.types.CalculationStep;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.utilities.UtilitiesHelper;
 
+import learningplatform.learningplatform.calculation.ValidCalculation;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
-import learningplatform.learningplatform.Calculation.ValidCalculation;
 
 public class FormularUtils {
 

@@ -1,19 +1,13 @@
 package com.learningplatform.learningplatform.attributes;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
 
 import java.util.EnumMap;
-import java.util.Map;
 import java.util.Random;
 
-import org.hibernate.boot.jaxb.hbm.spi.AttributeMapping;
-import org.hibernate.jdbc.Expectation;
 import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.BDDMockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.learningplatform.learningplatform.attributes.Attribute;
@@ -27,7 +21,6 @@ import com.learningplatform.learningplatform.templates.Elements.ElementHandler;
 import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import mockit.Expectations;
 import mockit.Mock;
 import mockit.MockUp;
 import mockit.Mocked;

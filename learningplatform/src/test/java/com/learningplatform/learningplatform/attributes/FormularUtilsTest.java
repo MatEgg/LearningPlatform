@@ -19,7 +19,7 @@ import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 import com.learningplatform.learningplatform.types.CalculationStep;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class FormularUtilsTest {
 

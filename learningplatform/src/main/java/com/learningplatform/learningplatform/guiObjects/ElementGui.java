@@ -6,7 +6,7 @@ import java.util.List;
 import com.learningplatform.learningplatform.attributes.Attribute;
 import com.learningplatform.learningplatform.templates.Elements.Element;
 
-import learningplatform.learningplatform.Calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.OptimalSolution;
 
 /**
  * Overview of elements that are included in the Word problem.

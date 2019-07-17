@@ -28,9 +28,9 @@ import com.learningplatform.learningplatform.types.ResultStep;
 import com.learningplatform.learningplatform.types.TargetAttribute;
 import com.learningplatform.learningplatform.types.UserResult;
 
-import learningplatform.learningplatform.Calculation.CalculationStats;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.CalculationStats;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class QuestionHandlerTest {
 

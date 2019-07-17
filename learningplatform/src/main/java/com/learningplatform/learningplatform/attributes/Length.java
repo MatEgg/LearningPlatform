@@ -6,7 +6,7 @@ import com.learningplatform.learningplatform.templates.Elements.Element;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.utilities.NameOverviewUtils;
 
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class Length extends Attribute {
 

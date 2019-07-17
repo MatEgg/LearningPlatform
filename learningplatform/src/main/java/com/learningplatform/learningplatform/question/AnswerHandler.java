@@ -15,13 +15,14 @@ import com.learningplatform.learningplatform.types.AttributeCalculationType;
 import com.learningplatform.learningplatform.types.CalculationStep;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 import com.learningplatform.learningplatform.utilities.AttributeUtils;
+
+import learningplatform.learningplatform.calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.SingleCalculation;
+
 import com.learningplatform.learningplatform.types.Question;
 import com.learningplatform.learningplatform.types.QuestionCalculation;
 import com.learningplatform.learningplatform.types.UserResult;
-
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.SingleCalculation;
 
 /**
  * @author Mathias

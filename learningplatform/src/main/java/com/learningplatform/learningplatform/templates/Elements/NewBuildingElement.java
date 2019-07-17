@@ -18,7 +18,7 @@ import com.learningplatform.learningplatform.question.QuestionAttribute;
 import com.learningplatform.learningplatform.templates.Template;
 import com.learningplatform.learningplatform.types.OperatorHelper.Operators;
 
-import learningplatform.learningplatform.Calculation.AttributeCalculation;
+import learningplatform.learningplatform.calculation.AttributeCalculation;
 
 public class NewBuildingElement extends NumericalElement {
 

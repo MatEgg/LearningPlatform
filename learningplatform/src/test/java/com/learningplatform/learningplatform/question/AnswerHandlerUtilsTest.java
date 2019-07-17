@@ -12,7 +12,7 @@ import com.learningplatform.learningplatform.models.Store;
 import com.learningplatform.learningplatform.templates.Elements.StoreElement;
 import com.learningplatform.learningplatform.types.CalculationStep;
 
-import learningplatform.learningplatform.Calculation.SingleCalculation;
+import learningplatform.learningplatform.calculation.SingleCalculation;
 
 public class AnswerHandlerUtilsTest {
 

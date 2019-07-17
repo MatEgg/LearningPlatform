@@ -11,7 +11,7 @@ import com.learningplatform.learningplatform.models.skills.numerical.NumericalSk
 import com.learningplatform.learningplatform.models.skills.numerical.SubtractionSkill;
 import com.learningplatform.learningplatform.tasks.WordProblem;
 
-import learningplatform.learningplatform.Calculation.MostDifficultyCalculation;
+import learningplatform.learningplatform.calculation.MostDifficultyCalculation;
 
 /**
  * First receiver of requests for updating the student's skill.

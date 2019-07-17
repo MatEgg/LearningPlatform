@@ -1,4 +1,4 @@
-package learningplatform.learningplatform.Calculation;
+package learningplatform.learningplatform.calculation;
 
 import com.learningplatform.learningplatform.attributes.AttributeHandler.AttributeType;
 import com.learningplatform.learningplatform.attributes.FormularUtils.Formula;

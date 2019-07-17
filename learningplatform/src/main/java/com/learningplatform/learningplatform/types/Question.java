@@ -7,9 +7,9 @@ import java.util.List;
 import com.learningplatform.learningplatform.attributes.Attribute;
 import com.learningplatform.learningplatform.tasks.WordProblem;
 
-import learningplatform.learningplatform.Calculation.CalculationInformation;
-import learningplatform.learningplatform.Calculation.OptimalSolution;
-import learningplatform.learningplatform.Calculation.ValidCalculation;
+import learningplatform.learningplatform.calculation.CalculationInformation;
+import learningplatform.learningplatform.calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.ValidCalculation;
 
 public class Question implements Comparable<Question> {
 

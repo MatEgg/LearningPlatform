@@ -1,6 +1,6 @@
 package com.learningplatform.learningplatform.guiObjects;
 
-import learningplatform.learningplatform.Calculation.OptimalSolution;
+import learningplatform.learningplatform.calculation.OptimalSolution;
 
 /**
  * Overview of the questions that are used with a Word Problem.
